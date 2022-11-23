@@ -1,0 +1,126 @@
+nav {
+    display: table;
+    width: 100%;
+}
+nav > ul {
+    display: table-row;
+}    
+nav a {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+nav > ul > li {
+    display: table-cell;
+    text-align: center;
+}
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    background-color:#A8D6FF;
+    border: solid black;
+}
+nav a:hover, nav a:active {
+    color: rgba(7, 0, 17, 0, 7);
+    background-color: hsla(39, 94%, 14%, 0.7);
+}
+
+.back-img {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+h*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    text-align: center;
+    background: #00E3CC;
+}
+
+
+.item {
+    height: 400px;width: 250px;
+    border: solid black;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(175, 29, 114);
+    max-width: 400px;
+    background-color: #E8A8FF;
+}
+.card-body {
+    width: 100%;
+    background-color: #FAECED;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-title {
+    font-size: 1.2rem;
+}
+.card-subtitle {
+    color: grey;
+}
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.button {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: rgb(53, 61, 53);
+    color: aliceblue;
+}
+button:hover, a:hover {
+    opacity: 0.5;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+}
+
+html{
+    background-color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+article{
+    background-image: linear-gradient(  #FFE800, #f6821f);
+    width: 100%;  
+}
+footer {
+    text-align: center;
+    background-color: hsla(39, 81%, 49%, 0.7);
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 0.7em;
+    border-top: 2px solid #f3f7f3;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 150px;
+} 
+     
